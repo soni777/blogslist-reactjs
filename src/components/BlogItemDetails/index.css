@@ -1,0 +1,44 @@
+.blog-info {
+  padding: 30px;
+}
+
+.blog-details-title {
+  color: #000000;
+  font-size: 16px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-pic {
+  height: 36px;
+  border-radius: 50px;
+}
+
+.details-author-name {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog-content {
+  color: #2f4f4f;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .blog-details-title {
+    font-size: 22px;
+  }
+  .details-author-name {
+    font-size: 20px;
+  }
+}
