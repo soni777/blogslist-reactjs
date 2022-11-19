@@ -39,7 +39,7 @@ class BlogItemDetails extends Component {
 
     const {title, imageUrl, content, avatarUrl, author} = blogDetails
     return (
-      <div>
+      <div className="blog-container">
         {isLoading ? (
           <Loader type="TailSpin" color="#00bfff" height={50} width="50" />
         ) : (
